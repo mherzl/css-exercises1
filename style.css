@@ -1,0 +1,41 @@
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+form {
+  background: lightgreen;
+  text-align: center;
+}
+
+.name {
+  display: inline-block;
+}
+
+.email {
+  display: inline-block;
+}
+
+textarea {
+  display: inline-block;
+}
+
+.name, .email, textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1%;
+  color: white;
+  margin: 0 auto;
+}
+
+.name, .email, textarea, button {
+  border-radius: 5px;
+  margin: 5%;
+}
+
+button {
+  color: lightgreen;
+  padding: 1%;
+  border: none;
+  background: white;
+}
