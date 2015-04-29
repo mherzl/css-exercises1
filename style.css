@@ -1,23 +1,22 @@
 
-::-webkit-input-placeholder {
-  color: white;
-}
-
 form {
   background: lightgreen;
   text-align: center;
+  width: 500px;
 }
 
 .name {
   display: inline-block;
-}
-
-.email {
-  display: inline-block;
+  width: 40%;
 }
 
 textarea {
-  display: inline-block;
+  display: block;
+  width: 90%;
+}
+
+::-webkit-input-placeholder {
+  color: white;
 }
 
 .name, .email, textarea {
@@ -25,12 +24,12 @@ textarea {
   border: 1px solid white;
   padding: 1%;
   color: white;
-  margin: 0 auto;
 }
 
 .name, .email, textarea, button {
   border-radius: 5px;
-  margin: 5%;
+  box-sizing: border-box;
+  margin: 5% auto;
 }
 
 button {
@@ -39,3 +38,10 @@ button {
   border: none;
   background: white;
 }
+
+.email {
+  display: inline-block;
+  width: 40%;
+  margin-left: 10%;
+}
+
